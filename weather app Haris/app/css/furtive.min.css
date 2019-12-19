@@ -1,0 +1,86 @@
+body{
+  margin:0
+  }
+  aside,details,main,summary
+  {
+    display:block
+    }
+  template{
+      display:none
+  }
+  a:active,a:hover{
+    outline:0
+  }
+abbr[title]{
+  border-bottom:1px dotted
+}
+b,strong{
+  font-weight:700
+}
+dfn
+{
+  font-style:italic
+}
+sub,sup{
+  font-size:75%;line-height:0;position:relative;vertical-align:baseline
+  }
+  sup{
+    top:-.5em
+}
+sub{
+  bottom:-.25em
+  }
+figure{
+  margin:1em 40px
+}
+  input{
+    line-height:normal
+  }
+  fieldset{
+    border:1px solid silver;margin:0 2px;padding:.35em .625em .75em
+  }
+  legend{
+    border:0;padding:0
+  }
+  textarea{
+    overflow:auto
+  }
+  optgroup{
+    font-weight:700
+  }
+  table{
+    border-collapse:collapse;border-spacing:0
+  }
+  td,th{
+    padding:0
+  }
+  @media screen and (min-width:64rem){
+    *,:after,:before{
+      box-sizing:border-box
+    }
+.m2{
+    margin:2rem
+    }
+.mx2{
+  margin-left:2rem;margin-right:2rem
+}
+.my2{
+    margin-top:2rem;margin-bottom:2rem
+}
+.px2{
+    padding-left:2rem;padding-right:2rem
+}
+.py2{
+  padding-top:2rem;padding-bottom:2rem
+}
+  html{font-size:12px}
+  @media screen and (min-width:32rem) and (max-width:48rem){
+    html{
+      font-size:15px
+    }
+  }
+  @media screen and (min-width:48rem){
+    html{
+      font-size:16px
+    }
+  }
