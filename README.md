@@ -1,2 +1,2 @@
-# Weather-app-ZeForge
+# Weather-app-project
 My first weather app!
